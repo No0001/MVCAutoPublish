@@ -38,3 +38,5 @@ BuildWeb $dev
 Remove-Item $publishUrl\Web.config
 
 
+執行 BuildWeb.ps1
+
