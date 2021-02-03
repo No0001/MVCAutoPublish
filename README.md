@@ -38,11 +38,17 @@ BuildWeb $dev
 Remove-Item $publishUrl\Web.config
 ```
 
-設定 $msbuild、$basePath、$projectName、$publishUrl
-執行 BuildWeb.ps1
-會將網站產生在指定的目錄下
+設定 $msbuild、$basePath、$projectName、$publishUrl  
 
-BuildWeb.ps1 使用到的
-BuildWebPath.psm1  => 抓取路徑
-msbuildmodule.psm1 => 發佈網站的PowerShell程式碼
+執行 BuildWeb.ps1  
+
+會將網站產生在指定的目錄下  
+
+
+BuildWeb.ps1 使用到的  
+
+BuildWebPath.psm1  => 抓取路徑  
+
+msbuildmodule.psm1 => 發佈網站的PowerShell程式碼  
+
 
